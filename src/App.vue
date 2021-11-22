@@ -1,0 +1,24 @@
+<template>
+ <div>
+   <h1>av.world</h1>
+   <ToDoList/>
+ </div>
+</template>
+
+<script>
+import ToDoList from "./components/ToDoList.vue"
+export default {
+  name:"App",
+  components: {
+    ToDoList
+  }
+};
+</script>
+<style>
+
+body{
+  background-color: rgb(66,66,66);
+  color: aliceblue;
+}
+
+</style>
